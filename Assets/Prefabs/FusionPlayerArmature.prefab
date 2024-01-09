@@ -2314,6 +2314,7 @@ GameObject:
   - component: {fileID: 8625164917241669372}
   - component: {fileID: 6348681677999742389}
   - component: {fileID: 7805930572096728}
+  - component: {fileID: 1625147004787803444}
   m_Layer: 8
   m_Name: FusionPlayerArmature
   m_TagString: Player
@@ -2545,6 +2546,7 @@ MonoBehaviour:
   NetworkedBehaviours:
   - {fileID: 6348681677999742389}
   - {fileID: 7805930572096728}
+  - {fileID: 1625147004787803444}
   SimulationBehaviours: []
 --- !u!114 &6348681677999742389
 MonoBehaviour:
@@ -2613,6 +2615,36 @@ MonoBehaviour:
   _animator: {fileID: 2314833914928745557}
   _controller: {fileID: 2668105768382064538}
   _input: {fileID: 4455633782443843545}
+--- !u!114 &1625147004787803444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631913904130742761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506319458, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  Animator: {fileID: 2314833914928745557}
+  TotalWords: 5
+  SyncSettings: 127
+  FloatAccuracy:
+    _value: 0
+    _inverse: 0
+    _hash: -814817977
+  TimeAccuracy:
+    _value: 0
+    _inverse: 0
+    _hash: 1061325578
+  WeightAccuracy:
+    _value: 0
+    _inverse: 0
+    _hash: -814817977
+  StateHashes: 0000000084ca1cc0f9c6230b1c6a54339e2518b671a7e1076b36dbedb1afdc305a6c54cd
+  TriggerHashes: 00000000
 --- !u!1 &8829573002557295448
 GameObject:
   m_ObjectHideFlags: 0
