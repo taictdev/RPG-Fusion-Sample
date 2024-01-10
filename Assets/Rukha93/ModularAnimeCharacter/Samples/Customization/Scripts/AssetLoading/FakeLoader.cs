@@ -32,7 +32,6 @@ namespace Rukha93.ModularAnimeCharacter.Customization
         private void Awake()
         {
             m_AssetMap = new Dictionary<string, object>();
-
             AddAssets("m", m_MaleItems);
             AddAssets("f", m_FemaleItems);
 
