@@ -110,7 +110,7 @@ public class FusionThirdPersonController : NetworkBehaviour
 #endif
     [SerializeField] private Animator _animator;
     [SerializeField] private CharacterController _controller;
-    [SerializeField] private StarterAssetsInputs _input;
+    [SerializeField] private FusionThirdPersonInputs _input;
     private GameObject _mainCamera;
 
     private const float _threshold = 0.01f;
@@ -145,7 +145,7 @@ public class FusionThirdPersonController : NetworkBehaviour
 
         _hasAnimator = TryGetComponent(out _animator);
         _controller = GetComponent<CharacterController>();
-        _input = GetComponent<StarterAssetsInputs>();
+        _input = GetComponent<FusionThirdPersonInputs>();
 #if ENABLE_INPUT_SYSTEM
         _playerInput = GetComponent<PlayerInput>();
 #else
